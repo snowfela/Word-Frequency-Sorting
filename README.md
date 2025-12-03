@@ -18,3 +18,19 @@ Process :
 3. Convert the map entries into a list to enable sorting.
 4. Sort the list in descending order of frequency. If frequencies are the same, sort alphabetically.
 5. Print the sorted list of words with their frequencies.
+
+## Sample Input List
+ ["apple  mango  apple banana guava     ", "mango  apple apple apple banana mango grapes" ]
+
+ ## Sample Output
+apple : 5
+
+mango : 3
+
+banana : 2
+
+grapes : 1
+
+guava : 1
+
+values sorted in the descending order of frequencies. For grapes and guava where the frequency is 1, grapes come first alphabetically.
